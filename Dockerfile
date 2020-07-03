@@ -2,7 +2,7 @@ FROM redhat-sso-7/sso74-openshift
 
 COPY actions.cli /opt/eap/extensions/
 COPY postconfigure.sh /opt/eap/extensions/
-ENV ORACLE_DRIVER_FILE_NAME=ojdbc8-19.3.0.0.jar
+ENV ORACLE_DRIVER_FILE_NAME=ojdbc8.jar
 
 USER root
 
